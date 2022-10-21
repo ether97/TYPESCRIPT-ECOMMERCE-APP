@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Michael Kors Bag",
+    "price": 235,
+    "imgURL": "/imgs/03045643da82a42a4a5c86842f4b17f1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Ted Baker Bag",
+    "price": 495,
+    "imgURL": "/imgs/4c176b2fa86bdcddf74822c2501bbcac.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Coach Bag",
+    "price": 238,
+    "imgURL": "/imgs/coach-jes-crossbody-signature-canvas-brown-black-59181.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Kate Spade Bag",
+    "price": 35,
+    "imgURL": "/imgs/10.jpg"
+  }
+]
