@@ -1,0 +1,166 @@
+[
+  {
+    "Women": {
+      "Bags": [
+        {
+          "id": 1,
+          "name": "Small Shoulder Bag",
+          "price": 20,
+          "imgURL": "/imgs/Small Shoulder Bag.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Quilted Weekend Bag",
+          "price": 65,
+          "imgURL": "/imgs/Quilted Weekend Bag.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Rhinestone Shoulder Bag",
+          "price": 40,
+          "imgURL": "/imgs/Rhinestone Shoulder Bag.jpg"
+        },
+        {
+          "id": 4,
+          "name": "Jacquard-weave Shoulder Bag",
+          "price": 25,
+          "imgURL": "/imgs/Jacquard-weave Shoulder Bag.jpg"
+        }
+      ],
+      "Shoes": [
+        {
+          "id": 5,
+          "name": "Calf-high Boots",
+          "price": 50,
+          "imgURL": "/imgs/Women Calf-high Boots.jpg"
+        },
+        {
+          "id": 6,
+          "name": "Slingbacks",
+          "price": 35,
+          "imgURL": "/imgs/Women Slingbacks.jpg"
+        },
+        {
+          "id": 7,
+          "name": "Chunky Sneakers",
+          "price": 50,
+          "imgURL": "/imgs/Women Chunky Sneakers.jpg"
+        },
+        {
+          "id": 8,
+          "name": "Chelsea Boots",
+          "price": 40,
+          "imgURL": "/imgs/Women Chelsea Boots.jpg"
+        }
+      ],
+      "Jackets": [
+        {
+          "id": 9,
+          "name": "Hooded Puffer Coat",
+          "price": 80,
+          "imgURL": "/imgs/Women Hooded Puffer Coat.jpg"
+        },
+        {
+          "id": 10,
+          "name": "Tie Belt Coat",
+          "price": 75,
+          "imgURL": "/imgs/Women Tie Belt Coat.jpg"
+        },
+        {
+          "id": 11,
+          "name": "Single-breasted Faux-fur Jacket",
+          "price": 65,
+          "imgURL": "/imgs/Women Single-breasted Faux-fur Jacket.jpg"
+        },
+        {
+          "id": 12,
+          "name": "Fleece-lined Jacket",
+          "price": 75,
+          "imgURL": "/imgs/Women Fleece-lined Jacket.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "Men": {
+      "Shoes": [
+        {
+          "id": 13,
+          "name": "Walking Boots",
+          "price": 85,
+          "imgURL": "/imgs/Mens Walking Boots.jpg"
+        },
+        {
+          "id": 14,
+          "name": "Soft Slippers",
+          "price": 25,
+          "imgURL": "/imgs/Mens Soft Slippers.jpg"
+        },
+        {
+          "id": 15,
+          "name": "Chelsea Boots",
+          "price": 100,
+          "imgURL": "/imgs/Mens Chelsea Boots.jpg"
+        },
+        {
+          "id": 16,
+          "name": "Sneakers",
+          "price": 50,
+          "imgURL": "/imgs/Mens Sneakers.jpg"
+        }
+      ],
+      "Sweaters": [
+        {
+          "id": 17,
+          "name": "Muscle Fit Knit Sweater",
+          "price": 235,
+          "imgURL": "/imgs/Muscle Fit Knit Sweater.jpg"
+        },
+        {
+          "id": 18,
+          "name": "Crewneck Sweater",
+          "price": 495,
+          "imgURL": "/imgs/Crewneck Sweater.jpg"
+        },
+        {
+          "id": 19,
+          "name": "Relaxed Fit Cable-knit Sweater",
+          "price": 238,
+          "imgURL": "/imgs/Relaxed Fit Cable-knit Sweater.jpg"
+        },
+        {
+          "id": 20,
+          "name": "Slim Fit Fine-knit Turtleneck Sweater",
+          "price": 35,
+          "imgURL": "/imgs/Slim Fit Fine-knit Turtleneck Sweater.jpg"
+        }
+      ],
+      "Pants": [
+        {
+          "id": 21,
+          "name": "Regular Fit Cargo Pants",
+          "price": 35,
+          "imgURL": "/imgs/Mens Regular Fit Cargo Pants.jpg"
+        },
+        {
+          "id": 22,
+          "name": "Regular Fit Dressy Joggers",
+          "price": 30,
+          "imgURL": "/imgs/Mens Regular Fit Dressy Joggers.jpg"
+        },
+        {
+          "id": 23,
+          "name": "Regular Fit Joggers",
+          "price": 25,
+          "imgURL": "/imgs/Mens Regular Fit Joggers.jpg"
+        },
+        {
+          "id": 24,
+          "name": "Slim Fit Linen Suit Pants",
+          "price": 35,
+          "imgURL": "/imgs/Mens Slim Fit Linen Suit Pants.jpg"
+        }
+      ]
+    }
+  }
+]

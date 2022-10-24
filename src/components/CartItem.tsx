@@ -1,8 +1,9 @@
 import { useShoppingCart } from "./../context/ShoppingCartContext";
-import storeItems from "../data/items.json";
+import storeItems from "../data/items2.json";
 import { Stack } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 import { formatCurrency } from "./../utilities/formatCurrency";
+import { formatStoreItems } from "./../utilities/formatStoreItems";
 
 type CartItemProps = {
   id: number;
@@ -11,7 +12,19 @@ type CartItemProps = {
 
 export function CartItem({ id, quantity }: CartItemProps) {
   const { removeFromCart } = useShoppingCart();
-  const item = storeItems.find((i) => i.id === id);
+  var array: any = storeItems[0].Women;
+  let renderItems: any[] = formatStoreItems({ array });
+  const newRenderItems = renderItems.flat(Infinity);
+  array = storeItems[1].Men;
+  let renderItems2: any[] = formatStoreItems({ array });
+  const newRenderItems2 = renderItems2.flat(Infinity);
+  console.log("yo", newRenderItems2);
+  for (let i = 0; i < newRenderItems2.length; i++) {
+    const item = newRenderItems2[i];
+    newRenderItems.push(item);
+  }
+  console.log("2", newRenderItems);
+  const item = newRenderItems.find((i) => i.id === id);
   if (item == null) return null;
   return (
     <Stack direction="horizontal" gap={2} className="d-flex align-items-center">

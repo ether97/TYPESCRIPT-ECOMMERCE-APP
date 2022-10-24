@@ -40,13 +40,13 @@ export function StoreItem({ id, name, price, imgURL }: StoreItemProps) {
       <Card.Img
         variant="top"
         src={imgURL}
-        height="500px"
-        style={{ objectFit: "contain" }}
+        // height="500px"
+        style={{ objectFit: "contain", scale: "1", minHeight: "500px" }}
       />
       <Card.Body className="d-flex flex-column">
-        <Card.Title className="d-flex justify-content-between align-items-baseline mb-4">
+        <Card.Title className="d-flex justify-content-between align-items-baseline mb-4 flex-column">
           <span className="fs-2">{name}</span>
-          <span className="ms-2 text-muted">{formatCurrency(price)}</span>
+          <span className="mt-2 ms-2 text-muted">{formatCurrency(price)}</span>
         </Card.Title>
         <div
           className="d-flex justify-content-between"

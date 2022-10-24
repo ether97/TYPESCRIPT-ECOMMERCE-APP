@@ -1,9 +1,9 @@
 const CURRENCY_FORMATTER = new Intl.NumberFormat(undefined, {
-  currency: "INR",
+  currency: "USD",
   style: "currency",
 });
 
 export function formatCurrency(number: number) {
-  number = number * 82.71;
+  number = number;
   return CURRENCY_FORMATTER.format(number);
 }
